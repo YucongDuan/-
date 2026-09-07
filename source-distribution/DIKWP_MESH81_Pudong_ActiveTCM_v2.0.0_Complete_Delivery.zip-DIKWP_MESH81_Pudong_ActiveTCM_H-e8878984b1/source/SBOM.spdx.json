@@ -1,0 +1,51 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "DIKWP-MESH8.1-Pudong-ActiveTCM-Integration-v2.0.0",
+  "documentNamespace": "https://example.invalid/spdx/dikwp-mesh81-pudong-2.0.0",
+  "creationInfo": {
+    "created": "2026-08-12T00:00:00Z",
+    "creators": [
+      "Tool: release-builder",
+      "Organization: DIKWP-MESH8.1 reference delivery"
+    ]
+  },
+  "packages": [
+    {
+      "name": "DIKWP-MESH8.1 Pudong ActiveTCM Integration",
+      "SPDXID": "SPDXRef-Package",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "name": "Python Standard Library",
+      "SPDXID": "SPDXRef-PythonStdlib",
+      "versionInfo": "3.10+",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Python-2.0",
+      "licenseDeclared": "Python-2.0",
+      "copyrightText": "Python Software Foundation"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-PythonStdlib"
+    }
+  ],
+  "annotations": [
+    {
+      "annotationDate": "2026-08-12T00:00:00Z",
+      "annotationType": "OTHER",
+      "annotator": "Tool: release-builder",
+      "comment": "Runtime integration layer is implemented with the Python standard library. Browser UI uses native HTML/CSS/JavaScript. Deployment templates may use external platform components supplied by the hospital."
+    }
+  ]
+}

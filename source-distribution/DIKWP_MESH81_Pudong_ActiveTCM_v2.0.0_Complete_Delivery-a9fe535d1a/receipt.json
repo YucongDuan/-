@@ -1,0 +1,91 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:12:45.824915+00:00",
+  "source": {
+    "archive_path": "DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_Complete_Delivery.zip",
+    "archive_bytes": 1299679,
+    "sha256": "bdb894af282e285373659069fc190fc1a327f9606f0e33a293453055c71f5e94",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/-/24a7f973ea271d4b93acfc049dd8c1a3f8193f50/DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_Complete_Delivery.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_Complete_Delivery-a9fe535d1a",
+  "unwrapped_directory": null,
+  "project_marker_directories": [],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [
+    "Nested-archive-only source candidate: REVIEW_REQUIRED; no source version was selected."
+  ],
+  "files": [
+    {
+      "archive_path": "DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.zip",
+      "output_path": "source/DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.zip",
+      "kind": "file",
+      "bytes": 808818,
+      "sha256": "b55e7e5de71da90c7d15dbc376df239bf347236dce72816a4969e7a24291a382",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.package_verification.json",
+      "output_path": "source/DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.package_verification.json",
+      "kind": "file",
+      "bytes": 2370,
+      "sha256": "4ecdc10ef4be0fdd35986ebdb367ae148d1163a7e4d9d974d40995c59f348972",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.zip.sha256",
+      "output_path": "source/DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.zip.sha256",
+      "kind": "file",
+      "bytes": 128,
+      "sha256": "df33281045225d489f471d8e255e1cbc2ef4abbd06a1a5fa9f0595b5aabbdfcc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_SHA256SUMS.txt",
+      "output_path": "source/DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_SHA256SUMS.txt",
+      "kind": "file",
+      "bytes": 704,
+      "sha256": "ccefe016215029255e52f0de05866e5b661e37b3673bd86e6f6a8c0c764e3bf8",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "浦东中医主动诊疗平台_MESH81_完整用户手册_v2.0.0.docx",
+      "output_path": "source/浦东中医主动诊疗平台_MESH81_完整用户手册_v2.0.0.docx",
+      "kind": "file",
+      "bytes": 159994,
+      "sha256": "1dc1bd674571e2e8a423bea7db970e01e3f47409acfaff17e898558dd744fdee",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "浦东中医主动诊疗平台_MESH81_全面升级与医院接口实施报告_v2.0.0.docx",
+      "output_path": "source/浦东中医主动诊疗平台_MESH81_全面升级与医院接口实施报告_v2.0.0.docx",
+      "kind": "file",
+      "bytes": 335879,
+      "sha256": "aa60be6372f54a8f192287b5df80fa25cc803690f820558e25c67f9cd8bdc9e5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

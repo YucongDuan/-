@@ -1,0 +1,79 @@
+{
+  "project": "DIKWP-MESH8.1 Pudong ActiveTCM Hospital Integration",
+  "version": "2.0.0",
+  "generated_at": "2026-08-12T02:33:35.502558+00:00",
+  "artifact": "DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.zip",
+  "sha256": "b55e7e5de71da90c7d15dbc376df239bf347236dce72816a4969e7a24291a382",
+  "size_bytes": 808818,
+  "qa_summary": {
+    "passed": null,
+    "required_check_count": null,
+    "required_passed_count": null,
+    "failed_required": null,
+    "generated_at": null
+  },
+  "passed": false,
+  "checks": [
+    {
+      "name": "zip_integrity",
+      "passed": true,
+      "detail": {
+        "first_bad_entry": null
+      }
+    },
+    {
+      "name": "single_top_level",
+      "passed": true,
+      "detail": {
+        "top_level": [
+          "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0"
+        ]
+      }
+    },
+    {
+      "name": "no_runtime_artifacts",
+      "passed": true,
+      "detail": {
+        "forbidden": []
+      }
+    },
+    {
+      "name": "required_delivery_files",
+      "passed": false,
+      "detail": {
+        "missing": [
+          "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/README.md",
+          "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/run_mesh81.py",
+          "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/openapi.integration.json"
+        ]
+      }
+    },
+    {
+      "name": "manifest_hashes",
+      "passed": true,
+      "detail": {
+        "file_count": 22,
+        "errors": []
+      }
+    },
+    {
+      "name": "extracted_cli_help",
+      "passed": false,
+      "detail": {
+        "returncode": 2,
+        "stdout": "",
+        "stderr": "/opt/pyvenv/bin/python: can't open file '/tmp/mesh81_release_verify_nadssrgk/DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/run_mesh81.py': [Errno 2] No such file or directory\n"
+      }
+    },
+    {
+      "name": "extracted_config_check",
+      "passed": false,
+      "detail": {
+        "returncode": 2,
+        "stdout": "",
+        "stderr": "/opt/pyvenv/bin/python: can't open file '/tmp/mesh81_release_verify_nadssrgk/DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/run_mesh81.py': [Errno 2] No such file or directory\n"
+      }
+    }
+  ],
+  "boundary": "synthetic reference implementation; not connected to live hospital systems and not hospital acceptance, clinical validation, production security certification or regulatory approval"
+}

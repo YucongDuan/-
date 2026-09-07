@@ -1,0 +1,31 @@
+{
+  "project": "DIKWP-MESH8.1 Pudong ActiveTCM Hospital Integration",
+  "project_zh": "浦东中医主动诊疗—主动康复—双向转诊与院内互联平台",
+  "version": "2.0.0",
+  "generated_at": "2026-08-12T02:33:34.228114+00:00",
+  "base_project": "DIKWP-Mesh-4.1-Pudong-ActiveTCM-28Path v1.0.0",
+  "integration_capabilities": [
+    "FHIR R4",
+    "HL7 v2 / MLLP",
+    "CDA R2",
+    "DICOMweb QIDO/WADO with STOW disabled by default",
+    "REST/Webhook",
+    "secure flat-file landing zone",
+    "conservative MPI",
+    "consent",
+    "signature envelope",
+    "reliable queue and dead-letter",
+    "human-reviewed core staging",
+    "D/I/K/W/P semantic passport",
+    "hash-chain audit"
+  ],
+  "qa_summary": {
+    "passed": null,
+    "required_check_count": null,
+    "required_passed_count": null,
+    "failed_required": null,
+    "generated_at": null
+  },
+  "medical_boundary": "clinician-in-the-loop; no autonomous diagnosis, prescription, dosage, acupuncture plan, medical order submission or emergency replacement",
+  "deployment_boundary": "synthetic reference implementation; not connected to live hospital systems and not hospital acceptance, clinical validation, production security certification or regulatory approval"
+}

@@ -1,0 +1,242 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:12:46.048850+00:00",
+  "source": {
+    "archive_path": "DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_Complete_Delivery.zip!DIKWP_MESH81_Pudong_ActiveTCM_Hospital_Integration_v2.0.0.zip",
+    "archive_bytes": 808818,
+    "sha256": "b55e7e5de71da90c7d15dbc376df239bf347236dce72816a4969e7a24291a382",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/-/24a7f973ea271d4b93acfc049dd8c1a3f8193f50/DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_Complete_Delivery.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/DIKWP_MESH81_Pudong_ActiveTCM_v2.0.0_Complete_Delivery.zip-DIKWP_MESH81_Pudong_ActiveTCM_H-e8878984b1",
+  "unwrapped_directory": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0",
+  "project_marker_directories": [],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/CHANGELOG.md",
+      "output_path": "source/CHANGELOG.md",
+      "kind": "file",
+      "bytes": 1059,
+      "sha256": "a56a2551a3a5e4c0a5f190990e07b636a0396502b096dc9e5fef6603787f82e4",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/CONTRIBUTING.md",
+      "output_path": "source/CONTRIBUTING.md",
+      "kind": "file",
+      "bytes": 619,
+      "sha256": "844476c94b75c7ac18b89d43c210103c4a357ee1d44f6bfbaa848e2556650106",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/MANIFEST.sha256",
+      "output_path": "source/MANIFEST.sha256",
+      "kind": "file",
+      "bytes": 2362,
+      "sha256": "f40a762e30d5b751b63cf63f2dff1742daec60b5b89c3d032691ca25fa60f8cf",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/RELEASE_INFO.json",
+      "output_path": "source/RELEASE_INFO.json",
+      "kind": "file",
+      "bytes": 1243,
+      "sha256": "a9e4a75400e578bff242677f9ef4211b683ed70bb343901a83275925bacdfb2e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/SBOM.spdx.json",
+      "output_path": "source/SBOM.spdx.json",
+      "kind": "file",
+      "bytes": 1635,
+      "sha256": "2d1bb80e714fbd7c94db8c224145766b06824295353f7ab04d35d54dda706f36",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/SECURITY.md",
+      "output_path": "source/SECURITY.md",
+      "kind": "file",
+      "bytes": 1178,
+      "sha256": "534f2217c2501ef7759fc922a9ca3c87309d767ae6cf7681072650ed63bc5d4b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/00_交付总览.md",
+      "output_path": "source/docs/mesh81/00_交付总览.md",
+      "kind": "file",
+      "bytes": 3147,
+      "sha256": "3267ab141b8e7a737bb3352744d926eb148591e2ab98d2cfabc6570608f46115",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/01_全面升级分析与架构.md",
+      "output_path": "source/docs/mesh81/01_全面升级分析与架构.md",
+      "kind": "file",
+      "bytes": 7211,
+      "sha256": "3f72c26671d66e358c3b956bfa1898312d7fb1833fc0e0d0e82d0e0c88e61c60",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/02_部署安装手册.md",
+      "output_path": "source/docs/mesh81/02_部署安装手册.md",
+      "kind": "file",
+      "bytes": 4918,
+      "sha256": "95258a33f4f3457759ff05f58b7005e3eae4fecf3a750c6430fab22c19d1cf61",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/03_完整用户手册.md",
+      "output_path": "source/docs/mesh81/03_完整用户手册.md",
+      "kind": "file",
+      "bytes": 8719,
+      "sha256": "9e48283b4ac9138bea0927684fc52ecc894734eadf8ca2191c892fd5f64d46fc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/04_医院接口对接实施手册.md",
+      "output_path": "source/docs/mesh81/04_医院接口对接实施手册.md",
+      "kind": "file",
+      "bytes": 6189,
+      "sha256": "fc372ac8312a67d8815d1323b10d2b2bc88b76e43a0dfeaaf11e32839340f1cc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/05_运维安全备份恢复.md",
+      "output_path": "source/docs/mesh81/05_运维安全备份恢复.md",
+      "kind": "file",
+      "bytes": 2763,
+      "sha256": "d5719d81afc472cc487a4115ad17774f3e32245d9137242425cb02bdbe28b2a5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/06_测试验收与上线清单.md",
+      "output_path": "source/docs/mesh81/06_测试验收与上线清单.md",
+      "kind": "file",
+      "bytes": 3757,
+      "sha256": "e27fa22bde93bcf989a51e9c84e4eae60bb8359fbc62a4d7f05cdc202eb65d9d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/07_数据字典与字段映射指南.md",
+      "output_path": "source/docs/mesh81/07_数据字典与字段映射指南.md",
+      "kind": "file",
+      "bytes": 2109,
+      "sha256": "ee384d2c282d4213b33127dd14ded988a5e88bed3e0c4a5e26cfaa23cd3f32b1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/08_故障排查.md",
+      "output_path": "source/docs/mesh81/08_故障排查.md",
+      "kind": "file",
+      "bytes": 2025,
+      "sha256": "ca63735f372d1eee22019e3f61280ec24a86690d85f5e4d05e2befbaa79b9072",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/09_角色权限矩阵.md",
+      "output_path": "source/docs/mesh81/09_角色权限矩阵.md",
+      "kind": "file",
+      "bytes": 1423,
+      "sha256": "ca036ce9317c17c5c5655bd21d1587526b93c6c20bda241f4ce18997ac2bebab",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/10_变更记录与边界声明.md",
+      "output_path": "source/docs/mesh81/10_变更记录与边界声明.md",
+      "kind": "file",
+      "bytes": 1212,
+      "sha256": "7378e17f598ab9875a174b8342009ef488ddc8672402abac888677a4130672ba",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/11_现场实施输入清单.md",
+      "output_path": "source/docs/mesh81/11_现场实施输入清单.md",
+      "kind": "file",
+      "bytes": 1078,
+      "sha256": "825746b43a70d6ea0ae6c76440c6071addc63d818f50e090154b359ccaec1089",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/assets/architecture_overview.png",
+      "output_path": "source/docs/mesh81/assets/architecture_overview.png",
+      "kind": "file",
+      "bytes": 114954,
+      "sha256": "2f6e9d9fab04d25b2937d4587fb5a953885c7da950ceeef5152e2b1ee4a411a7",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/assets/clinical_safety_flow.png",
+      "output_path": "source/docs/mesh81/assets/clinical_safety_flow.png",
+      "kind": "file",
+      "bytes": 90292,
+      "sha256": "aa0a5f1906db9b2e269f2eee390658e1968c3def496bed05e509b3a8f461f8b4",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/assets/interface_matrix.png",
+      "output_path": "source/docs/mesh81/assets/interface_matrix.png",
+      "kind": "file",
+      "bytes": 107557,
+      "sha256": "0a070cd44d04c2bb99f7448051b4d7142151ec633ba50f21aec29ed17062a37a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/deliverables/浦东中医主动诊疗平台_MESH81_全面升级与医院接口实施报告_v2.0.0.docx",
+      "output_path": "source/docs/mesh81/deliverables/浦东中医主动诊疗平台_MESH81_全面升级与医院接口实施报告_v2.0.0.docx",
+      "kind": "file",
+      "bytes": 335879,
+      "sha256": "aa60be6372f54a8f192287b5df80fa25cc803690f820558e25c67f9cd8bdc9e5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_Mesh81_Pudong_ActiveTCM_Integration_v2.0.0/docs/mesh81/deliverables/浦东中医主动诊疗平台_MESH81_完整用户手册_v2.0.0.docx",
+      "output_path": "source/docs/mesh81/deliverables/浦东中医主动诊疗平台_MESH81_完整用户手册_v2.0.0.docx",
+      "kind": "file",
+      "bytes": 159994,
+      "sha256": "1dc1bd674571e2e8a423bea7db970e01e3f47409acfaff17e898558dd744fdee",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}
